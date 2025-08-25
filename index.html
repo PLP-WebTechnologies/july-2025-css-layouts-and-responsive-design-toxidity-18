@@ -8,65 +8,93 @@
 </head>
 <body>
   <!-- Header -->
-  <header>
-    <h1>My Responsive Webpage</h1>
+  <header class="site-header">
+    <h1>TechWorld Blog</h1>
+    <p>Your daily dose of technology news, tutorials, and insights</p>
   </header>
 
-  <!-- Navigation -->
-  <nav>
+  <!-- Navigation (Flexbox) -->
+  <nav class="navbar">
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="#">Articles</a></li>
+      <li><a href="#">Tutorials</a></li>
       <li><a href="#">Contact</a></li>
     </ul>
   </nav>
 
-  <!-- Main Layout: Grid -->
+  <!-- Main Layout (Grid) -->
   <main class="grid-container">
-    <!-- Content Area -->
+    <!-- Content -->
     <section class="content">
-      <h2>Welcome</h2>
+      <h2>Latest Articles</h2>
       <p>
-        This is a responsive layout built with CSS Grid and Flexbox. 
-        Resize the screen to see how it adapts across desktop, tablet, and mobile devices.
+        Welcome to TechWorld Blog! We cover the latest trends in software development, 
+        artificial intelligence, and web technologies. Explore our latest posts below:
       </p>
 
       <!-- Flexbox Cards -->
       <div class="card-container">
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" alt="Card 1">
-          <h3>Card 1</h3>
-          <p>This is a sample card using Flexbox. It contains an image, title, and text.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROUHF4Nzs9cP9IzyobdiA7JhALm3xsJQhOcQ&s" alt="AI Revolution">
+          <h3>The AI Revolution</h3>
+          <p>
+            Artificial Intelligence is transforming industries across the globe. 
+            Learn how AI is being used in healthcare, finance, and education.
+          </p>
+          <a href="#">Read More</a>
         </div>
 
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" alt="Card 2">
-          <h3>Card 2</h3>
-          <p>Flexbox ensures the cards are aligned neatly and adapt to screen sizes.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfEg9Rr_4FMAPy0plj5bInycP9a9rhvJM6Zw&s" alt="Web Development">
+          <h3>Modern Web Development</h3>
+          <p>
+            From JavaScript frameworks like React to CSS Grid and Flexbox, 
+            discover how to build responsive and scalable web applications.
+          </p>
+          <a href="#">Read More</a>
         </div>
 
         <div class="card">
-          <img src="https://via.placeholder.com/300x200" alt="Card 3">
-          <h3>Card 3</h3>
-          <p>Combine Flexbox and Grid for powerful, responsive designs.</p>
+          <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCubMjQpowBm3B6du5qLOVWMUZozr3RdNSuw&s' alt="Cybersecurity">
+          <h3>Cybersecurity in 2025</h3>
+          <p>
+            As technology advances, so do cyber threats. 
+            Find out the top security practices every developer should know.
+          </p>
+          <a href="#">Read More</a>
         </div>
       </div>
     </section>
 
     <!-- Sidebar -->
     <aside class="sidebar">
-      <h3>Sidebar</h3>
+      <h3>About Us</h3>
       <p>
-        This is the sidebar section. You can place additional links, ads, 
-        or any other complementary content here.
+        TechWorld Blog is a platform for developers, tech enthusiasts, 
+        and learners to stay updated with the ever-changing digital landscape.
       </p>
+
+      <h3>Popular Topics</h3>
+      <ul>
+        <li><a href="#">AI & Machine Learning</a></li>
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">Cybersecurity</a></li>
+        <li><a href="#">Cloud Computing</a></li>
+      </ul>
+
+      <h3>Subscribe</h3>
+      <p>Join our newsletter to get weekly updates straight to your inbox.</p>
+      <form>
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
     </aside>
   </main>
 
   <!-- Footer -->
-  <footer>
-    <p>&copy; 2025 My Responsive Webpage. Built with Flexbox & CSS Grid.</p>
+  <footer class="site-footer">
+    <p>&copy; 2025 TechWorld Blog. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
